@@ -1,0 +1,26 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+        int f =5;
+        int b=10;
+        String a="Fouz ";
+        String m="Almutairi";
+        
+        System.out.println(f+b);
+        
+        System.out.println(f*b);
+        
+        if(f== 5){
+            System.out.println("it is equal");
+        }else{
+            System.out.println("it is not equal");
+        }
+        if(b==10){
+            System.out.println("it is equal");
+        }else{
+            System.out.println("it is not equal");
+        }
+        System.out.println(a+m);
+     }
+}
